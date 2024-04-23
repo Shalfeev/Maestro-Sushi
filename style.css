@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:0px;
+    width: 100vw;
+    background-image: url(img/m39wpdk8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+.header_burger_btn{
+    margin-top: 85px;
+
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #555555;
+}
+.mainHeader{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#logoImg{
+    margin-top: 1vw;
+    width: 250px;
+}
+.contacts{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 2%;
+    margin-top: 5%;
+    padding-left: 7%;
+}
+.logo{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 75px;
+    color: #fff;
+    margin-left:3%;
+}
+.menu_icon{ 
+    margin-left: 2%;
+    top: 35px;
+    display: none;
+    width: 30px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    
+    :first-child{
+        top: 10%;
+    }
+    :last-child{
+        top: auto;
+        bottom: 0;
+    }
+}
+.bmt{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.menu_icon span{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: transform .5s, opacity .5s, background-color .5s;
+}
+.callBtn{
+    color: #fff;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    height: 20%;
+    font-size: 20px;
+    margin-top: 4.5%;
+    cursor: pointer;
+    margin-left: 3%;
+}
+#callBtn{
+    width: 10vw;
+}
+.mainHeader.open .menu_icon span:nth-child(1){
+    transform: translateY(10px) rotate(-45deg);
+}
+.mainHeader.open .menu_icon span{
+    background-color: #000;
+}
+.mainHeader.open .menu_icon span:nth-child(2){
+    opacity: 0;
+}
+.mainHeader.open .menu_icon span:nth-child(3){
+    transform: translateY(-4px) rotate(45deg);
+}
+
+.newMenuText{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    width: 100%;
+}
+.menu{
+    padding-left: 5%;
+    margin-left: 3%;
+}
+.menukz{
+    margin-left: 40%;
+}
+.pText{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#pMenu{
+    margin-top: 20%;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 65px;
+    color: #000;
+    text-align: center;
+}
+#pSushi{
+    padding-top: 2%;
+    width: 100vw;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.deliverys{
+    margin: 5% 0 5% 0;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+}
+.delivery p{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.delivery img{
+    width: 30%;
+    padding-left: 35%;
+}
+#fastDelivery{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.fastDelivery{
+    margin-top: 10%;
+}
+.lastDiv p{
+    margin: 0%;
+    padding-top: 100px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.bgLastDiv{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 1440px){
+    #logoImg{
+        margin-top: 2%;
+        width: 200px;
+        height: 20%;
+    }
+    .logo{
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    .contacts{
+        padding-left: 6%;
+    }
+    .orede{
+        height: 7%;
+    }
+    .newMenuText{
+        font-size: 50px;
+    }
+    #pMenu{
+        margin-top: 22%;
+    }
+}
+@media (max-width: 1280px){
+    .logo{
+        font-size: 65px;
+    }
+    .contacts{
+        padding-left: 3%;
+    }
+    .callBtn{
+        margin-top: 5%;
+        width: 11%;
+        margin-left: 1%;
+    }
+    .newMenuText{
+        padding-top: 5%;
+        font-size: 40px;
+    }
+    #pMenu{
+        margin-top: 27%;
+    }
+}
+@media (max-width: 1024px){
+    #logoImg{
+        margin-top: 2%;
+        width: 150px;
+        height: 20%;
+    }
+    .logo{
+        margin-left: 0;
+        margin-top: 3%;
+        font-size: 55px;
+    }
+    #pMenu{
+        margin-top: 32%;
+    }
+    .contacts{
+        padding-top: 1%;
+        padding-left: 3%;
+        font-size: 18px;
+    }
+    .callBtn{
+        margin-top: 5.5%;
+        width: 11%;
+        margin-left: 1%;
+    }
+    #pMenu{
+        margin-top: 39%;
+    }
+    .set4-6{
+        margin-top: 15%;
+    }
+    .mainFastFood{
+        padding-top: 10%;
+    }
+    #pSushi{
+        padding-top: 25%;
+    }
+    .cm{
+        font-size: 17px;
+    }
+    #pizzas3{
+        margin-top: 15%;
+    }
+    #pSushi {
+        padding-top: 5%;
+    }
+
+}
+@media (max-width: 768px){
+    #logoImg {
+        margin-top: 4%;
+        width: 80px;
+        height: 20%;
+    }
+    .logo {
+        margin-left: 0;
+        margin-top: 4.3%;
+        font-size: 40px;
+    }
+    .contacts {
+        padding-top: 2%;
+        padding-left: 3%;
+        font-size: 12px;
+    }
+    .callBtn {
+        margin-top: 6%;
+        width: 10%;
+        margin-left: 1%;
+    }
+    .menukz {
+        margin-left: 15%;
+    }
+    .set4-6 {
+        margin-top: 20%;
+    }
+    .mainFastFood {
+        padding-top: 20%;
+    }
+    #pSushi {
+        padding-top: 25%;
+    }
+    #pizzas2{
+        padding-top: 15%;
+    }
+    #pizzas3{
+        padding-top: 15%;
+    }
+    .pizzaBoxes p{
+        font-size: 25px;
+    }
+    .pizzaBoxes span{
+        font-size: 25px;
+    }
+    #pSushi {
+        padding-top: 5%;
+    }
+    .shushiBoxes span{
+        font-size: 25px;
+    }
+    .cm {
+        font-size: 12px;
+    }
+    .shushiBoxes span {
+        font-size: 20px;
+    }
+    .shushis button{
+        height: 20%;
+    }
+}
+@media(max-width: 568px){
+    .logo{
+        margin-left: 35%;
+    }
+    #logoImg{
+        display: none;
+        
+    }
+    .menu_icon{
+        display: block;
+        position: absolute;
+        z-index: 5;
+        margin-left: 5%;
+    }
+    .bmt {
+        text-align: start;
+        width: 150px;
+        border-radius: 10px;
+        height: 200px;
+        position: absolute;
+        left: -190px;
+        padding-left: 100px;
+        top: 0;
+        margin-top:0 ;
+        background-color: #555555;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px 20px 20px;
+        gap: 30px;
+        font-size: 10px;
+        z-index: 2;
+        transition: transform .5s;
+    }
+    #callBtn{
+        width: 100%;
+    }
+    .mainHeader.open .bmt{
+        transform: translateX(100%);
+    }
+    .newMenuText{
+        font-size: 25px;
+    }
+    .menukz {
+        margin-left: 10%;
+    }
+    .sushiSets{
+        flex-direction: column;
+    }
+    .set4-6{
+        flex-direction: column;
+    }
+    .fastFood{
+        flex-direction: column;
+    }
+    .mainFastFood{
+        flex-direction: column;
+    }
+    .doners {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .burger {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .chickens{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .pizzas{
+        flex-direction: column;
+    }
+    .shushis{
+        flex-direction: column;
+    }
+    .ebDiv{
+        width: 100%;
+    }
+    .deliverys{
+        flex-direction: column;
+    }
+}
+@media (max-width: 425px){
+
+}
+@media (max-width: 375px){
+
+}

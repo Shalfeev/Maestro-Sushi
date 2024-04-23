@@ -1,0 +1,347 @@
+#price{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+
+.set4-6 img{
+    width: 80%;
+}
+.sets p{
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.set4-6{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 3%;
+}
+.set4-6 img{
+    width: 100%;
+    height: 30%;
+}
+.sushiSets{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1%;
+}
+.sets{
+    width: 100%;
+    margin: 0;
+}
+.sushiSets p{
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.sushiSets li{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.donerStructure{
+    height: 7%;
+}
+.sushiSets h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.structure{
+    font-size: 22px;
+}
+.sushiSets img{
+    border-radius: 30px;
+    width:100%;
+    height: 40%;
+}
+.fastFood button{
+    margin-top: 2%;
+    height: 100%;
+}
+.mainFastFood{
+    width: 100%;
+    display: flex;
+}
+.mainFastFood img{
+    width: 100%;
+    height: 20%;
+}
+.doners{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+.doners img{
+    width: 100%;
+}
+.doners h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.burgerStructure{
+    height: 7%;
+}
+.burger img{
+    padding-left: 27%;
+}
+.burger{
+    width: 33%;
+}
+.burgers{
+    width: 33%;
+    text-align: center;
+    display: flex;
+}
+.burger h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.burger li{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    list-style: none;
+}
+.doners li{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    list-style: none;
+}
+.doners img{
+    border-radius: 30px;
+    width: 100%;
+    margin-right: 2%;
+}
+.burgers{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+}
+.fastFood img{
+    width: 50%;
+    text-align: center;
+}
+.fastFood{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.burgers h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.burgers li{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    list-style: none;
+}
+.burgers img{
+    border-radius: 30px;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.chickens{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+}
+.chickens h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.chickens li{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    list-style: none;
+}
+.chickens img{
+    border-radius: 30px;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.pizzaBoxes{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+.order{
+    color: #fff;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.order1{
+    color: #fff;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.order2{
+    color: #fff;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 7%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pizzaBoxes span{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.pizzaBoxes img{
+    height: 40%;
+}
+.pizzaBoxes p {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.pizzas{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+}
+
+.cm{
+    text-align: center;
+    font-size: 25px;
+}
+
+.pizzas img{
+    display: flex;
+    width: 100%;
+    height: 55%;
+}
+.shushiBoxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.shushiBoxes span{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.shushiBoxes p{
+    max-width: 100%;
+    text-align: center;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.shushis p {
+    text-align: center;
+    padding-left: 2%;
+}
+.shushis{
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    text-align: center;
+}
+.shushis button{
+    width: 70%;
+    height: 15%;
+}
+.shushis img {
+    width: 50%;
+}
+.ebDiv{
+    width: 20%;
+}
